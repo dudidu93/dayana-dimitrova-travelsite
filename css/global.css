@@ -1,0 +1,35 @@
+/*global*/
+/* resets */
+/* content-box: final width and height is NOT inclusive of padding and border */
+/* border-box: final width and height is inclusive of padding and border */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* if box-sizing is changed to content-box, please inherit box-sizing from the parent */
+/* asterik - means select all the elements that are within a parent or container or by default
+within body */
+/* asterik does not target pseudo elements hence we are being explicit */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+h1,
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: 300;
+}
