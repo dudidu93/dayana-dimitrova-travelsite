@@ -8,7 +8,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+/* html {
+  min-height: 100%;
+} */
 /* if box-sizing is changed to content-box, please inherit box-sizing from the parent */
 /* asterik - means select all the elements that are within a parent or container or by default
 within body */
